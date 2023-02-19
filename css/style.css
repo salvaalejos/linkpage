@@ -1,0 +1,171 @@
+*{
+    background-color: #062133;
+    color:white;
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+a{
+    background-color: white;
+    color: #062133;
+    
+}
+
+
+p{
+    font-size: 12px;
+}
+
+.titulos{
+    color:#00fffc;
+    margin-top: 60px;
+}
+
+.bibl{
+    font-style: italic;
+    text-align: left;
+    font-size: smaller;
+    margin-top: 5px;
+    width: 80%;
+}
+
+.nutria{
+    width: 20%;
+    position: absolute;
+    left: 70px;
+    top: 20%;
+    border-radius: 50px;
+    
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.li-autores{
+    width: 20%;
+    margin: 0 auto 80px;
+    padding: 5px;
+}
+
+.li-links{
+    margin-bottom: 100px;
+    padding: 15px, 0;
+    
+}
+
+.links{
+    margin: 20px auto;
+    
+    background-color: white;
+    color: #062133;
+    width: 30%;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.tit-b{
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.tit-l{
+    font-size: 22px;
+    background-color: transparent;
+    color: #062133;
+}
+
+button:hover{
+    background-color: #dcf1ff;
+    transition: 0.5s;
+}
+
+/**********************TELEFONOS*****************/
+
+@media (max-width:418px) {
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
+
+    a{
+        background-color: white;
+        color: #062133;
+        
+    }
+    
+    
+    p{
+        font-size: 28px;
+    }
+    
+    .titulos{
+        color:#00fffc;
+        margin-top: 60px;
+    }
+    
+    .bibl{
+        font-style: italic;
+        text-align: justify;
+        font-size: smaller;
+        margin-top: 5px;
+        width: 60%;
+        padding-bottom: 2px;
+    }
+    
+    .nutria{
+        width: 22%;
+        position: absolute;
+        left: 20px;
+        top: 5%;
+        border-radius: 50px;
+        
+    }
+    
+    ul{
+        list-style: none;
+        padding-left: 0;
+    }
+    
+    .li-autores{
+        width: 80%;
+        margin: 0 auto 80px;
+        padding: 5px;
+    }
+    
+    .li-links{
+        margin-bottom: 100px;
+        padding: 15px, 0;
+        
+    }
+    
+    .links{
+        margin: 20px auto;
+        border: 1px solid white;
+        background-color: white;
+        color: #062133;
+        width: 70%;
+        padding: 5px;
+        border-radius: 10px;
+        font-size: 18px;
+    }
+    
+    .tit-b{
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+    
+    .tit-l{
+        font-size: 22px;
+        background-color: white;
+        color: #062133;
+    }
+}
+
+@media (max-width:280px) {
+    .nutria{
+        left: 75%;
+    }
+}
